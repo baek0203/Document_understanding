@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# YOLO Model weights
+*.pt
+*.pth
+*.weights
+*.onnx
+*.tflite
+*.pb
+
+# Data directories
+data/
+datasets/
+*.hdf5
+*.h5
+
+# Training outputs
+runs/
+out/
+out_compare/
+debug_*/
+wandb/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Cache
+.cache/
+*.cache
+.pytest_cache/
+
+# Config (if it contains sensitive info)
+# config/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z

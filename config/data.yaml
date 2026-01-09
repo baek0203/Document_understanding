@@ -1,0 +1,9 @@
+dataset:
+  name: docling-project/DocLayNet-v1.2
+  cache_dir: /mnt/d/hf_cache
+  splits:
+    - train
+    - validation
+    - test
+output:
+  root: data/doclaynet_yolo

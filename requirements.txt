@@ -1,0 +1,21 @@
+# ==== Core ML / DL for YOLO ====
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# ==== HuggingFace (DocLayNet) ====
+datasets>=2.14.0
+huggingface_hub>=0.17.0
+
+# ==== Parallel & High-Performance Computing ====
+numba>=0.57.0        # SIMD, JIT, 성능 최적화
+tqdm>=4.65.0         # 대량 데이터 진행률 시각화
+h5py>=3.9.0          # HDF5 파일 처리
+
+# ==== Distributed Computing (Spark / MPI) ====
+pyspark>=3.4.0       # SparkSQL, RDD, DataFrame 병렬 처리
+mpi4py>=3.1.0        # MPI_Bcast, Scatter, Gather 등 (MPI 프로그래밍)
+
+# ==== Configuration & Utilities ====
+pyyaml>=6.0.0

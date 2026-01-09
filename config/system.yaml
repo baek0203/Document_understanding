@@ -1,0 +1,4 @@
+system:
+  workers: 12
+  use_vectorization: true
+  save_img_format: "jpg"  
