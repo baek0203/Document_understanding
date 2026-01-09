@@ -31,11 +31,13 @@ datasets/
 
 # Training outputs
 runs/
-out/
-out_compare/
 debug_*/
 wandb/
 *.log
+
+# Results (include sample outputs in git)
+# out/
+# out_compare/
 
 # IDE
 .vscode/
