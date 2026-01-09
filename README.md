@@ -1,11 +1,11 @@
-# BigData Project - DocLayNet YOLO
+# Document Understanding - DocLayNet YOLO
 
-DocLayNet 데이터셋을 활용한 문서 레이아웃 분석 프로젝트입니다.
+DocLayNet 데이터셋을 활용한 문서 레이아웃 객체 탐지 프로젝트입니다.
 
 ## 프로젝트 구조
 
 ```
-bigdata_project/
+Document_understanding/
 ├── scripts/           # 데이터 처리 및 학습 스크립트
 ├── config/           # 설정 파일 (YAML)
 ├── data/             # 데이터셋 (gitignore)
